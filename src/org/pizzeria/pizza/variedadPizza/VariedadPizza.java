@@ -11,19 +11,13 @@ package org.pizzeria.pizza.variedadPizza;
  */
 public class VariedadPizza {
     
-    private VariedadPizza variedadpizza;
+    private String harina;
+    private String levadura;
+    private String agua;
+    private String sal;
+    private String aceite;
+    
 
-    public VariedadPizza(VariedadPizza variedadpizza) {
-        this.variedadpizza = variedadpizza;
-    }
-
-    public VariedadPizza getVariedadpizza() {
-        return variedadpizza;
-    }
-
-    public void setVariedadpizza(VariedadPizza variedadpizza) {
-        this.variedadpizza = variedadpizza;
-    }
     
     
     
