@@ -11,4 +11,20 @@ package org.pizzeria.pizza.pizza;
  */
 public class Pizza {
     
+    private Pizza pizza;
+
+    public Pizza(Pizza pizza) {
+        this.pizza = pizza;
+    }
+
+    public Pizza getPizza() {
+        return pizza;
+    }
+
+    public void setPizza(Pizza pizza) {
+        this.pizza = pizza;
+    }
+    
+    
+    
 }

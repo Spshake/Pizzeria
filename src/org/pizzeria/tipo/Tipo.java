@@ -11,4 +11,20 @@ package org.pizzeria.tipo;
  */
 public class Tipo {
     
+    private Tipo tipo;
+
+    public Tipo(Tipo tipo) {
+        this.tipo = tipo;
+    }
+
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(Tipo tipo) {
+        this.tipo = tipo;
+    }
+    
+    
+    
 }

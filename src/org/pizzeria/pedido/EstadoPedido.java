@@ -11,4 +11,21 @@ package org.pizzeria.pedido;
  */
 public class EstadoPedido {
     
+    private EstadoPedido estadopedido;
+
+    public EstadoPedido(EstadoPedido estadopedido) {
+        this.estadopedido = estadopedido;
+    }
+
+    public EstadoPedido getEstadopedido() {
+        return estadopedido;
+    }
+
+    public void setEstadopedido(EstadoPedido estadopedido) {
+        this.estadopedido = estadopedido;
+    }
+
+ 
+    
+    
 }

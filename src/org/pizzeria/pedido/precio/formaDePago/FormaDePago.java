@@ -10,5 +10,19 @@ package org.pizzeria.pedido.precio.formaDePago;
  * @author Gonzalo
  */
 public class FormaDePago {
+    private FormaDePago formadepago;
+
+    public FormaDePago(FormaDePago formadepago) {
+        this.formadepago = formadepago;
+    }
+
+    public FormaDePago getFormadepago() {
+        return formadepago;
+    }
+
+    public void setFormadepago(FormaDePago formadepago) {
+        this.formadepago = formadepago;
+    }
+    
     
 }

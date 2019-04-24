@@ -11,4 +11,20 @@ package org.pizzeria.persona.persona;
  */
 public class Persona {
     
+    private Persona personapersona;
+
+    public Persona(Persona personapersona) {
+        this.personapersona = personapersona;
+    }
+
+    public Persona getPersonapersona() {
+        return personapersona;
+    }
+
+    public void setPersonapersona(Persona personapersona) {
+        this.personapersona = personapersona;
+    }
+    
+    
+    
 }

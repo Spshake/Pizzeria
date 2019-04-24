@@ -10,5 +10,20 @@ package org.pizzeria.pedido.tiempo;
  * @author Gonzalo
  */
 public class Tiempo {
+    private Tiempo tiempo;
+
+    public Tiempo(Tiempo tiempo) {
+        this.tiempo = tiempo;
+    }
+
+    public Tiempo getTiempo() {
+        return tiempo;
+    }
+
+    public void setTiempo(Tiempo tiempo) {
+        this.tiempo = tiempo;
+    }
+    
+    
     
 }

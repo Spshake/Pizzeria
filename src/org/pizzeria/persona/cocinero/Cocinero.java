@@ -11,4 +11,20 @@ package org.pizzeria.persona.cocinero;
  */
 public class Cocinero {
     
+    private Cocinero cocinero;
+
+    public Cocinero(Cocinero cocinero) {
+        this.cocinero = cocinero;
+    }
+
+    public Cocinero getCocinero() {
+        return cocinero;
+    }
+
+    public void setCocinero(Cocinero cocinero) {
+        this.cocinero = cocinero;
+    }
+    
+    
+    
 }

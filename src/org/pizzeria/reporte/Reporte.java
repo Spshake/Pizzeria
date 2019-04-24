@@ -11,4 +11,19 @@ package org.pizzeria.reporte;
  */
 public class Reporte {
     
+    private Reporte reporte;
+
+    public Reporte(Reporte reporte) {
+        this.reporte = reporte;
+    }
+
+    public Reporte getReporte() {
+        return reporte;
+    }
+
+    public void setReporte(Reporte reporte) {
+        this.reporte = reporte;
+    }
+    
+    
 }
