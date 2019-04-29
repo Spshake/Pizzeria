@@ -12,22 +12,62 @@ import org.pizzeria.factura.factura.Factura;
  * @author Gonzalo
  */
 public class EstadoFactura {
-    private Factura factura;
-
-    public EstadoFactura(Factura factura) {
-        this.factura = factura;
-    }
-
-    public Factura getFactura() {
-        return factura;
-    }
-
-    public void setFactura(Factura factura) {
-        this.factura = factura;
+    
+    private Integer id;
+    private String nombre;
+    private String descripcion;
+    
+    /**
+     * Constructor por defecto de la clase Estado.
+     */
+    public EstadoFactura() {
     }
     
+    /**
+     * Constructor con todos los atributos de la clase Estado.
+     * @param nombre
+     * @param descripcion 
+     */
+    public EstadoFactura(String nombre, String descripcion) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+    }
+    
+    /**
+     * Método que devuelve true si el estado es Generada, sino devuelve false, El estado generada es de la factura.
+     * @return 
+     */
+    public boolean esGenerada() {
+        return nombre.equals("Generada");
+    }
     
     
+    // A continuación se listan todos los métodos de seteo
+    // de cada atributo de la clase
     
-    
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }
+    
+    
+ 
