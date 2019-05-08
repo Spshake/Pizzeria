@@ -12,7 +12,12 @@ import org.pizzeria.persona.cliente.Cliente;
  * @author Gonzalo
  */
 public interface ClienteDao {
-    
-    public Cliente buscarPorNombre (String nombre);
-    
+    //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
+    public Cliente BuscarClienteNombre (String nombre);
+    public Cliente BuscarClienteApellido (String apellido);
+    public Cliente BuscarClienteDNI (String dni);
+    public Cliente BuscarClienteCuit (String dni);
+    public Cliente BuscarClienteCuil (String dni);
+    public Cliente ActualizarClienteHab (String habilitado);
+    public Cliente ActualizarClienteDNI (String dni);
 }
