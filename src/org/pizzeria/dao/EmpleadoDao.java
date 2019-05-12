@@ -13,5 +13,8 @@ import org.pizzeria.persona.empleado.Empleado;
  */
 public interface EmpleadoDao {
     //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
-    public Empleado buscarPorNombre (String nombre);
+    public Empleado buscarPorTipo (String tipo);
+    public Empleado buscarPorVariedadPizza (String variedadpizza);
+    public Empleado buscarPorPizza (String pizza);
+    public Empleado buscarPorCliente (String cliente);
 }

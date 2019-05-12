@@ -13,5 +13,9 @@ import org.pizzeria.pedido.variedad.ingrediente.Ingrediente;
  */
 public interface IngredienteDao {
     //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
-    public Ingrediente buscarPorNombre (String nombre);
+    public Ingrediente buscarPorVerdura (String verdura);
+    public Ingrediente buscarPorQueso (String queso);
+    public Ingrediente buscarPorFiambre (String fiambre);
+    public Ingrediente buscarPorSalsa (String salsa);
+    public Ingrediente buscarPorCondimento (String condimento);
 }

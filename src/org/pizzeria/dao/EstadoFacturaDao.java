@@ -13,5 +13,7 @@ import org.pizzeria.factura.estado_factura.EstadoFactura;
  */
 public interface EstadoFacturaDao {
     //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
+    public EstadoFactura buscarPorID (String id);
     public EstadoFactura buscarPorNombre (String nombre);
+    public EstadoFactura buscarPorDescripcion (String descripcion);
 }

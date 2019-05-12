@@ -14,4 +14,10 @@ import org.pizzeria.factura.factura.detalle_factura.DetalleFactura;
 public interface DetalleFacturaDao {
     //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
     public DetalleFactura buscarPorNombre (String nombre);
+    public DetalleFactura buscarPorNumero (String numero);
+    public DetalleFactura buscarPorEstado (String estado);
+    public DetalleFactura buscarPorTipo (String tipo);
+    public DetalleFactura buscarPorPedido (String pedido);
+    public DetalleFactura buscarPorDNI (String dni);
+    
 }

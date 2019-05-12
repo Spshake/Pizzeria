@@ -13,5 +13,8 @@ import org.pizzeria.pedido.tiempo.Tiempo;
  */
 public interface TiempoDao {
       //El atributo que tengo en la clase principal (Ver el import org.pizzeria... de arriba) es el mismo atributo (String xxx) que  va en la va a ir en esta clase ésta.
-    public Tiempo buscarPorNombre (String nombre);  
+    public Tiempo buscarPorFecha (String fecha);
+    public Tiempo buscarPorHora (String hora);
+    public Tiempo buscarPorDemora (String demora);
+    public Tiempo buscarPorEstimado (String estimado);
 }
