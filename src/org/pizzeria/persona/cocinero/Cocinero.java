@@ -5,26 +5,19 @@
  */
 package org.pizzeria.persona.cocinero;
 
+import org.pizzeria.persona.Persona;
+
 /**
  *
  * @author Gonzalo
  */
-public class Cocinero {
-    
-    private Cocinero cocinero;
+public class Cocinero extends Persona {
 
-    public Cocinero(Cocinero cocinero) {
-        this.cocinero = cocinero;
-    }
-
-    public Cocinero getCocinero() {
-        return cocinero;
-    }
-
-    public void setCocinero(Cocinero cocinero) {
-        this.cocinero = cocinero;
+    public Cocinero(String nombre, String apellido, String dni, String direccion, String telefono, String email) {
+        super(nombre, apellido, dni, direccion, telefono, email);
     }
     
+
     
     
 }

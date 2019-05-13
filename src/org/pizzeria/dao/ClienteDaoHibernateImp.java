@@ -28,6 +28,7 @@ public class ClienteDaoHibernateImp implements ClienteDao {
 
     @Override
     public Cliente BuscarClienteApellido(String apellido) {
+        
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

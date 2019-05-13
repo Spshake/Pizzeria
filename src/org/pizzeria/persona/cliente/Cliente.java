@@ -13,9 +13,10 @@ import org.pizzeria.persona.Persona;
  */
 public class Cliente extends Persona{
 
-    public Cliente(String nombre, String apellido, String dni, String habilitado ) {
-        super(nombre, apellido);
+    public Cliente(String nombre, String apellido, String dni, String direccion, String telefono, String email) {
+        super(nombre, apellido, dni, direccion, telefono, email);
     }
 
+   
     
 }

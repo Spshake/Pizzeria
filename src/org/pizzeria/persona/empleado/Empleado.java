@@ -5,25 +5,19 @@
  */
 package org.pizzeria.persona.empleado;
 
+import org.pizzeria.persona.Persona;
+
 /**
  *
  * @author Gonzalo
  */
-public class Empleado {
+public class Empleado extends Persona {
+
+    public Empleado(String nombre, String apellido, String dni, String direccion, String telefono, String email) {
+        super(nombre, apellido, dni, direccion, telefono, email);
+    }
     
-    private Empleado empleado;
-
-    public Empleado(Empleado empleado) {
-        this.empleado = empleado;
-    }
-
-    public Empleado getEmpleado() {
-        return empleado;
-    }
-
-    public void setEmpleado(Empleado empleado) {
-        this.empleado = empleado;
-    }
+    
     
     
     
